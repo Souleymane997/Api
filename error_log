@@ -1,0 +1,18 @@
+[08-Aug-2022 14:13:23 UTC] PHP Warning:  require(nodeQuery.php): failed to open stream: No such file or directory in /home/plateformeadmin/public_html/api/index.php on line 2
+[08-Aug-2022 14:13:23 UTC] PHP Warning:  require(nodeQuery.php): failed to open stream: No such file or directory in /home/plateformeadmin/public_html/api/index.php on line 2
+[08-Aug-2022 14:13:23 UTC] PHP Fatal error:  require(): Failed opening required 'nodeQuery.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/plateformeadmin/public_html/api/index.php on line 2
+[08-Aug-2022 14:13:57 UTC] PHP Warning:  require(../nodeQuery.php): failed to open stream: No such file or directory in /home/plateformeadmin/public_html/api/index.php on line 2
+[08-Aug-2022 14:13:57 UTC] PHP Warning:  require(../nodeQuery.php): failed to open stream: No such file or directory in /home/plateformeadmin/public_html/api/index.php on line 2
+[08-Aug-2022 14:13:57 UTC] PHP Fatal error:  require(): Failed opening required '../nodeQuery.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/plateformeadmin/public_html/api/index.php on line 2
+[08-Aug-2022 14:28:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getProduct() on null in /home/plateformeadmin/public_html/api/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/plateformeadmin/public_html/api/index.php on line 16
+[08-Aug-2022 14:31:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sendJSON() in /home/plateformeadmin/public_html/api/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/plateformeadmin/public_html/api/index.php on line 17
+[08-Aug-2022 14:31:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sendJSON() in /home/plateformeadmin/public_html/api/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/plateformeadmin/public_html/api/index.php on line 17
